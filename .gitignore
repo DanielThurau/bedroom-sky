@@ -1,0 +1,51 @@
+# Build
+build/
+cmake-build-*/
+CMakeUserPresets.json
+
+# Compiled objects
+*.o
+*.d
+*.obj
+*.a
+*.so
+*.dylib
+
+# Binary / executable
+bedroom-sky
+
+# Cache files (regenerated from APIs)
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+compile_commands.json
+
+# Local observer configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.log
+*.local.md
+.cache/
+screenshots/
+
+# Local agent settings
+.claude/
+
+# Python helper artifacts
+__pycache__/
+*.pyc
